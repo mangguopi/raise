@@ -1,0 +1,21 @@
+########################################
+#### IDE specific rules:
+########################################
+.classpath
+.project
+.settings/
+target/
+*.iml
+*.idea/
+.idea/
+.idea/*
+logs/*
+.mvn/*
+libraries
+
+#######
+#################################
+#### OSX/Finder:
+########################################
+.DS_Store
+*.DS_Store
