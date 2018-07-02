@@ -1,0 +1,15 @@
+server:
+  #访问端口
+  port: 10201
+  #访问别名 不设置时：http://localhost:10201/ 设置后：http://localhost:10201/springboot
+  #context-path: /springboot
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: root
+business:
+  name: zjh
+  age: 18
+  #可以动态取配置文件中的值
+  concate: ${business.name}:${business.age}
