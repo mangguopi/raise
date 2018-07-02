@@ -1,14 +1,12 @@
-package com.manggo.controller;
+package com.mango.controller;
 
-import com.manggo.common.dic.ReturnCode;
-import com.manggo.common.model.ActionResult;
-import com.manggo.model.paramin.UserLoginParamIn;
-import com.manggo.model.paramout.UserLoginParamOut;
-import com.manggo.service.UserLoginService;
+import com.mango.common.dic.ReturnCode;
+import com.mango.common.model.ActionResult;
+import com.mango.model.paramin.UserLoginParamIn;
+import com.mango.model.paramout.UserLoginParamOut;
+import com.mango.service.UserLoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 /**

@@ -1,6 +1,6 @@
-package com.manggo.common.model;
+package com.mango.common.model;
 
-import com.manggo.common.dic.ReturnCode;
+import com.mango.common.dic.ReturnCode;
 
 import java.io.Serializable;
 

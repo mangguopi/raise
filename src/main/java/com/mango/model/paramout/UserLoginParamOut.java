@@ -1,4 +1,4 @@
-package com.manggo.model.paramout;
+package com.mango.model.paramout;
 
 /**
  * ClassName UserLoginParamOut

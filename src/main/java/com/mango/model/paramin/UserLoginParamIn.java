@@ -1,4 +1,4 @@
-package com.manggo.model.paramin;
+package com.mango.model.paramin;
 
 /**
  * ClassName UserLoginParamIn

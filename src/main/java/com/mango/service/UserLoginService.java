@@ -1,4 +1,4 @@
-package com.manggo.service;
+package com.mango.service;
 
 import org.springframework.stereotype.Service;
 

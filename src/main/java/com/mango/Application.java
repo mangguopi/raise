@@ -1,4 +1,4 @@
-package com.manggo;
+package com.mango;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Controller;
  * Description: springBoot 项目启动类
  */
 @Controller
-@SpringBootApplication(scanBasePackages = {"com.manggo.*"})
+@SpringBootApplication(scanBasePackages = {"com.mango.*"})
 public class Application {
 
     public static void main(String[] args) {

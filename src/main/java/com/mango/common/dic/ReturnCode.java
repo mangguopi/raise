@@ -1,4 +1,4 @@
-package com.manggo.common.dic;
+package com.mango.common.dic;
 
 import java.util.HashMap;
 import java.util.Map;
