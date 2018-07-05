@@ -16,11 +16,39 @@
         <version>1.5.4.RELEASE</version>
     </parent>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <docker.plugin.version>0.4.13</docker.plugin.version>
+        <docker.image.prefix>${project.artifactId}</docker.image.prefix>
+        <swagger.version>2.6.1</swagger.version>
+        <fastjson.version>1.2.31</fastjson.version>
+        <fintechzh-common.version>1.0-SNAPSHOT</fintechzh-common.version>
+    </properties>
+
     <!--  -->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.4</version>
+        </dependency>
+
+        <!-- dwr 反转 -->
+        <dependency>
+            <groupId>org.directwebremoting</groupId>
+            <artifactId>dwr</artifactId>
+            <version>3.0.2-RELEASE</version>
         </dependency>
     </dependencies>
 
